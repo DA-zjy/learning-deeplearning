@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+.env
+.venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyTorch模型文件 (太大，不适合直接上传)
+*.pth
+*.pt
+*.pkl
+
+# 大型数据集文件
+*.tar.gz
+*.zip
+data/cifar-10-batches-py/
+shared/datasets/*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 训练输出
+results/
+logs/
