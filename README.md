@@ -6,6 +6,7 @@
 
 - `01_cifar10_cnn/` - CIFAR-10图像分类（CNN）
 - `02_mnist_mlp/` - MNIST手写数字识别（MLP）
+- `03_mnist_cnn/` - MNIST手写数字识别（CNN）
 - `shared/` - 共享工具和资源
 
 ## 环境要求
@@ -24,6 +25,14 @@ python train.py
 
 ### MNIST MLP
 查看 `02_mnist_mlp/notebooks/` 中的Jupyter笔记本
+
+### MNIST CNN
+```bash
+cd 03_mnist_cnn
+python train.py
+```
+
+
 
 ## 注意事项
 
